@@ -1,3 +1,12 @@
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
 html {
   background-color: #f1f5f9;
   font-family: sans-serif;

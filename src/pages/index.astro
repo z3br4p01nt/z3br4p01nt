@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Hamburger from '../components/Hamburger.astro';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 
@@ -15,8 +16,12 @@ const pageTitle = "z3br4p01nt";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
+		<Hamburger />
 		<Navigation />
 		<h1>{pageTitle}</h1>
 		<Footer />
+		<script>
+		  import "../scripts/menu.js";
+		</script>
 	</body>
 </html>
